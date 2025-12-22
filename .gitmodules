@@ -1,0 +1,3 @@
+[submodule "Data/Data/SandhiKosh"]
+	path = Data/Data/SandhiKosh
+	url = https://github.com/sanskrit-sandhi/SandhiKosh
