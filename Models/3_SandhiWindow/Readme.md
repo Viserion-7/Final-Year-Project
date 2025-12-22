@@ -1,1 +1,0 @@
-python inference.py --in ../data/easy.tsv --out output/file_pred.csv
