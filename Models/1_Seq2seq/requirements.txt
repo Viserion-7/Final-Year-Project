@@ -4,4 +4,3 @@ pandas
 openpyxl
 tqdm
 python-Levenshtein
-openai
