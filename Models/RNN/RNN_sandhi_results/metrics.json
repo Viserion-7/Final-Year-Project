@@ -1,0 +1,56 @@
+{
+  "best_validation": {
+    "boundary_f1": 0.7789872219592996
+  },
+  "test_metrics": {
+    "loss": 0.27589519609781826,
+    "accuracy": 0.9234095486316787,
+    "precision": {
+      "I": 0.9803769869179912,
+      "B": 0.6193693693693694
+    },
+    "recall": {
+      "I": 0.9321875208988163,
+      "B": 0.8553654743390358
+    },
+    "f1": {
+      "I": 0.9556751568338419,
+      "B": 0.7184846505551927
+    },
+    "support": {
+      "I": 14953,
+      "B": 1929
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "I",
+      "B"
+    ],
+    "matrix": [
+      [
+        13939,
+        1014
+      ],
+      [
+        279,
+        1650
+      ]
+    ]
+  },
+  "model_config": {
+    "embedding_dim": 64,
+    "hidden_dim": 128,
+    "num_layers": 2,
+    "dropout": 0.3,
+    "epochs": 20,
+    "batch_size": 32,
+    "learning_rate": 0.001
+  },
+  "notes": {
+    "task": "Sanskrit Sandhi Boundary Detection",
+    "model": "BiLSTM Character-Level Sequence Labeling",
+    "paper_reference": "Hellwig (2015)",
+    "primary_metric": "Boundary F1"
+  }
+}
