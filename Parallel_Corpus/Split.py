@@ -10,9 +10,6 @@ Reads:
 Produces:
   - charakasamhita_parallel.json         (objects with chapter, verse, original, sandhi_split)
   - charakasamhita_parallel_compact.json (list of {"original": "...", "sandhi_split": "..."} )
-
-Usage:
-  python make_charaka_parallel.py
 """
 
 import re
@@ -36,7 +33,6 @@ def parse_chapters(text):
     Parse chapter blocks of form <1-1> ... </1-1>.
     If no such tags found, treat the whole text as a single 'root' chapter.
     For each chapter, parse verses by looking for verse markers: || N || (robust spacing).
-    Returns: OrderedDict { chapter_id: OrderedDict{ verse_num: verse_text, ... }, ... }
     """
     # find chapter blocks
     chap_pat = re.compile(r"<\s*([\w\-\d]+)\s*>(.*?)</\s*\1\s*>", re.S | re.U)
