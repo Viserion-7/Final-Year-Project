@@ -1,0 +1,128 @@
+[{"stream_name":"stderr","time":11.931341733,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.931422387,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.931429100999999,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.931433871,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.691187171,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.691220038,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.691225514,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.691230791,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":22.166274094,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/515.2 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━\u001b[0m \u001b[32m337.9/515.2 kB\u001b[0m \u001b[31m10.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m515.2/515.2 kB\u001b[0m \u001b[31m9.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":22.572922155,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/47.6 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.8/47.6 MB\u001b[0m \u001b[31m115.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.6/47.6 MB\u001b[0m \u001b[31m233.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m21.5/47.6 MB\u001b[0m \u001b[31m258.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m28.4/47.6 MB\u001b[0m \u001b[31m217.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━\u001b[0m \u001b[32m37.3/47.6 MB\u001b[0m \u001b[31m256.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━\u001b[0m \u001b[32m45.9/47.6 MB\u001b[0m \u001b[31m247.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m47.6/47.6 MB\u001b[0m \u001b[31m252.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m47.6/47.6 MB\u001b[0m \u001b[31m252.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m47.6/47.6 MB\u001b[0m \u001b[31m252.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m47.6/47.6 MB\u001b[0m \u001b[31m252.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m47.6/47.6 MB\u001b[0m \u001b[31m252.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m47.6/47.6 MB\u001b[0m \u001b[31m43.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":29.146235933,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":29.14627577,"data":"bigframes 2.31.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\r\n"}
+,{"stream_name":"stdout","time":29.14628136,"data":"google-adk 1.21.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":30.768233276,"data":"\u001b[0m(13925, 2)\n"}
+,{"stream_name":"stderr","time":72.719355723,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to encoder.embed_tokens.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":72.719402093,"data":"\n"}
+,{"stream_name":"stderr","time":72.720878579,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to encoder.embed_tokens.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":72.722476157,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to decoder.embed_tokens.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":72.722497613,"data":"\n"}
+,{"stream_name":"stderr","time":72.724781216,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to decoder.embed_tokens.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":72.726442348,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":72.726461849,"data":"\n"}
+,{"stream_name":"stderr","time":72.726890837,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":83.773451964,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":83.774297374,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":83.777383182,"data":"\n"}
+,{"stream_name":"stderr","time":83.777394276,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":83.777400529,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":532.463711015,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":532.463801764,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":532.463809899,"data":"\n"}
+,{"stream_name":"stderr","time":532.463816267,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":532.463823928,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":984.24541461,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":984.245465172,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":984.245473109,"data":"\n"}
+,{"stream_name":"stderr","time":984.24547944,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":984.245486588,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1436.247960299,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1436.248037652,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1436.248045605,"data":"\n"}
+,{"stream_name":"stderr","time":1436.248052032,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1436.248059104,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1888.192080175,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1888.192131423,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1888.19213964,"data":"\n"}
+,{"stream_name":"stderr","time":1888.192145672,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1888.19216645,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2339.720449929,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2339.7205017,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2339.72050853,"data":"\n"}
+,{"stream_name":"stderr","time":2339.720515331,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2339.720522586,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2791.374719215,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2791.374762245,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":2791.374769285,"data":"\n"}
+,{"stream_name":"stderr","time":2791.374781825,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2791.374787981,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3242.842908867,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3242.842976159,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3242.842984021,"data":"\n"}
+,{"stream_name":"stderr","time":3242.842990013,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3242.842996873,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3694.418290119,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3694.418345664,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":3694.418353331,"data":"\n"}
+,{"stream_name":"stderr","time":3694.418359567,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3694.418366655,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":4145.767205994,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":4145.767259842,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":4145.767268196,"data":"\n"}
+,{"stream_name":"stderr","time":4145.767274352,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":4145.767295002,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4758.42031863,"data":"Exact Match Accuracy: 0.5922469490308686\n"}
+,{"stream_name":"stdout","time":4758.438698683,"data":"Word-Level F1: 0.7245534078269182\n"}
+,{"stream_name":"stdout","time":4758.455356766,"data":"Input : नन्वित्यनुज्ञैषणायाम्\n"}
+,{"stream_name":"stdout","time":4758.455382537,"data":"Pred  : ननुपूर्व अनुज्ञैषणायाम्\n"}
+,{"stream_name":"stdout","time":4758.455389367,"data":"Gold  : ननु इति अनुज्ञैषणायाम्\n"}
+,{"stream_name":"stdout","time":4758.455395297,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":4758.455399995,"data":"Input : इत्‍थं च\n"}
+,{"stream_name":"stdout","time":4758.455404749,"data":"Pred  : इत्थम् च\n"}
+,{"stream_name":"stdout","time":4758.455411131,"data":"Gold  : इत्थम् च\n"}
+,{"stream_name":"stdout","time":4758.455415132,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":4758.455418364,"data":"Input : यो भाजनं भाजनं तं हत्वा\n"}
+,{"stream_name":"stdout","time":4758.455421769,"data":"Pred  : यः भाजनं भाजनं तम् हत्वा\n"}
+,{"stream_name":"stdout","time":4758.455425828,"data":"Gold  : यम् भाजनम् तम् हत्वा\n"}
+,{"stream_name":"stdout","time":4758.455432473,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":4758.455437659,"data":"Input : नान्त्यः\n"}
+,{"stream_name":"stdout","time":4758.455443557,"data":"Pred  : न अान्त्यः\n"}
+,{"stream_name":"stdout","time":4758.455447987,"data":"Gold  : न अन्त्यः\n"}
+,{"stream_name":"stdout","time":4758.455452427,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":4758.455456996,"data":"Input : ब्रह्मविद्यायां योगशास्त्रे\n"}
+,{"stream_name":"stdout","time":4758.455461838,"data":"Pred  : ब्रह्मविद्यायाम् योगशास्त्रे\n"}
+,{"stream_name":"stdout","time":4758.455466843,"data":"Gold  : ब्रह्मविद्यायाम् योगशास्त्रे\n"}
+,{"stream_name":"stdout","time":4758.455471445,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":4758.455476515,"data":"Input : किन्नाम\n"}
+,{"stream_name":"stdout","time":4758.455486597,"data":"Pred  : किम् अनेन\n"}
+,{"stream_name":"stdout","time":4758.455491827,"data":"Gold  : किं नाम\n"}
+,{"stream_name":"stdout","time":4758.455496618,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":4758.455501842,"data":"Input : शतं ह्यत्र\n"}
+,{"stream_name":"stdout","time":4758.455507632,"data":"Pred  : शतम् ह्यत्र\n"}
+,{"stream_name":"stdout","time":4758.455513093,"data":"Gold  : शतम् हि अत्र\n"}
+,{"stream_name":"stdout","time":4758.455517792,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":4758.455522363,"data":"Input : निर्माणमेव\n"}
+,{"stream_name":"stdout","time":4758.455527089,"data":"Pred  : निर्माणम् एव\n"}
+,{"stream_name":"stdout","time":4758.455531838,"data":"Gold  : निर्माणम् एव\n"}
+,{"stream_name":"stdout","time":4758.455538315,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":4758.455552385,"data":"Input : कथमित्याह\n"}
+,{"stream_name":"stdout","time":4758.45555528,"data":"Pred  : कथम् इति आह\n"}
+,{"stream_name":"stdout","time":4758.455557873,"data":"Gold  : कथम् इति आह\n"}
+,{"stream_name":"stdout","time":4758.45556037,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":4758.455562783,"data":"Input : अपरत्र\n"}
+,{"stream_name":"stdout","time":4758.455565237,"data":"Pred  : अपरत्र\n"}
+,{"stream_name":"stdout","time":4758.455567652,"data":"Gold  : अपर अत्र\n"}
+,{"stream_name":"stdout","time":4758.455570135,"data":"----------------------------------------\n"}
+,{"stream_name":"stderr","time":4765.028489554,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4765.028516224,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4765.322801845,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4765.322825858,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4766.55570726,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":4766.555736628,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":4766.629148492,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":4766.981312086,"data":"[NbConvertApp] Writing 268624 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":4769.237350853,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":4769.237390288,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":4769.272427386,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4770.30161978,"data":"[NbConvertApp] Writing 502638 bytes to __results__.html\n"}
+]
