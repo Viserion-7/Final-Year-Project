@@ -3,5 +3,6 @@
 
 best_byt5_model/
 byt5_best_model.pt
+byt5_best_model/
 byt5_sandhi/
 mt5-sandhi/
