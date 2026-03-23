@@ -252,10 +252,3 @@ ByT5 is most stable for Sanskrit morphology.
 
 ---
 
-If you want next:
-
-* I can design the exact dataset formatting for sandhi splitting
-* Or give you the training loop template
-* Or design evaluation metrics properly
-
-Tell me which one.
