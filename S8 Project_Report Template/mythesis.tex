@@ -1,0 +1,180 @@
+%AMRITA UNIVERSITY PH.D latex template...Created by Chungath, CYS-CBE%
+
+\documentclass[a4paper, 12pt]{report}
+%\renewcommand{\bibname}{References}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\usepackage{bold-extra}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+%\usepackage[a4paper,top=30mm,bottom=30mm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\graphicspath{{images/}}
+\usepackage{amsthm}
+%\usepackage{hyperref}
+%\hypersetup{colourlinks=true,linkcolour=blue}
+\usepackage{array}
+%\usepackage{parskip}
+\usepackage{cite}
+\usepackage{longtable}
+\usepackage{fancyhdr}
+\usepackage{titletoc}
+\theoremstyle{definition}
+\newtheorem{Definition}{Definition}[section]
+
+%-------------------------------------------------------------
+% title page
+\begin{document}
+	\pagenumbering{gobble}
+	\thispagestyle{empty}
+	\begin{large}
+		\begin{center}
+			{\Large\bfseries{TITLE OF YOUR PROJECT}}\\
+			\vspace{1.3cm}
+			A PROJECT REPORT \\
+			\vspace{.1cm}
+			Submitted in partial fulfillment for the Degree of\\
+			\vspace{.1cm}
+			Bachelor of Technology under the\\
+			\vspace{.1cm}
+			School of Computing\\
+			\vspace{1cm}
+			
+			\normalsize Submitted by \\
+\begin{table}[h]
+\centering
+\begin{tabular}{lr}\hline \\
+Register No & Names of Students \\ \\ \hline
+\\
+\texttt{<}Roll no here\texttt{>} & \texttt{<}Name here\texttt{>} \\
+\texttt{<}Roll no here\texttt{>} & \texttt{<}Name here\texttt{>} \\ 
+\texttt{<}Roll no here\texttt{>} & \texttt{<}Name here\texttt{>} \\ \\ \hline 
+\end{tabular}
+\end{table}
+
+
+
+\vfill
+			\includegraphics[scale=0.7]{univA.png}\\
+			DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING\\
+			\Large{\textbf{AMRITA VISHWA VIDYAPEETHAM}}\\
+			{\large Amritapuri Campus (INDIA)}\\
+			\vspace*{.3cm}
+			Month Year
+		\end{center}
+	\end{large}
+	%------------------------------------------------------------------------------------
+	% bonafide certificate
+	\newpage
+	\begin{center}
+		
+		{\large Department of Computer Science and Engineering}\\
+		\Large{ \textbf{AMRITA VISHWA VIDYAPEETHAM}}\\
+			{\large AMRITAPURI CAMPUS}\\
+		\vspace*{2.2cm}
+		%\includegraphics[width=5cm,height=5cm,keepaspectratio]{university.jpg}
+		\includegraphics[scale=0.5]{univa.png}\\
+		\vspace*{1.5cm}
+		{\Large \textbf{BONAFIDE CERTIFICATE}}
+	\end{center}
+	\vspace*{.8cm}
+	This is to certify that this is a bonafide record of the project presented by the students whose names are given below during Project Phase II in partial fulfilment of the requirements of the degree of Bachelor of Technology in Computer Science and Engineering.\\[1.0cm]
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lr}
+Roll No & Names of Students \\ \\ \hline
+\\
+\texttt{<}Roll no here\texttt{>} & \texttt{<}Name here\texttt{>} \\ 
+\texttt{<}Roll no here\texttt{>} & \texttt{<}Name here\texttt{>} \\
+\texttt{<}Roll no here\texttt{>} & \texttt{<}Name here\texttt{>} \\
+\texttt{<}Roll no here\texttt{>} & \texttt{<}Name here\texttt{>} \\
+\end{tabular}
+\end{table}
+
+
+
+% Bottom of the page
+\begin{flushleft}
+  \texttt{<} Guide's Name\texttt{>}\\
+(Project Guide)\\  [1cm]
+
+ \texttt{<}Coordinator name here\texttt{>}\\
+(Project Coordinator)\\
+Designation\\
+\end{flushleft}
+\begin{flushright}
+\texttt{<}Reviewer's Name\texttt{>}\\
+(Reviewer)\\
+Designation
+\end{flushright}
+
+
+
+
+\newpage
+	%-----------------------------------------------------------------------------
+	\clearpage
+	\pagenumbering{roman}
+	\tableofcontents
+	
+	\chapter*{Acknowledgements}
+	\addcontentsline{toc}{chapter}{Acknowledgements}	
+	Write your acknowledgments in this page.\\
+	\vspace{1cm}
+	\begin{flushright}
+		(your name in CAPS)
+	\end{flushright}
+	\listoffigures
+	\addcontentsline{toc}{chapter}{List of figures}
+	\listoftables
+	\addcontentsline{toc}{chapter}{List of tables}
+	\newpage
+%\chapter*{Abbreviations}
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+Write your abstract here  \\
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\chapter{Introduction}
+\input{chapters/introduction}
+\chapter{Literature Review/ Existing System}
+\input{chapters/chapter2}
+\chapter{Proposed Work}
+\input{chapters/chapter3}
+\chapter{Experimentation and Result Analysis}
+\input{chapters/chapter4} 
+\chapter{Conclusion and Scope for further Research}
+\input{chapters/conclusion}
+\appendix
+\chapter{title of appendix}
+\input{chapters/appendix}
+
+%\addcontentsline{toc}{chapter}{\textbf{References}}
+\newpage
+\renewcommand{\bibname}{References}
+\bibliographystyle{ieeetr}
+\addcontentsline{toc}{chapter}{References}
+\bibliography{mybib}
+
+
+
+
+\begin{enumerate}
+	\item [1.] Mr. X, Mr. U, Mr. V and Mr.Z , "Efficient Computations in Operating Systems", (Communicated in Sept. 2018).
+\end{enumerate}
+
+\end{document}
+	
+	
