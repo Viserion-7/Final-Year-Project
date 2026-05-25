@@ -1,0 +1,86 @@
+[{"stream_name":"stderr","time":10.665963403,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.666047428,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.666054827,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.666058789000001,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.385185905,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.385234335,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.385241143,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.385245812,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":58.901887842,"data":"                                Word                               Split\n"}
+,{"stream_name":"stdout","time":58.901951911,"data":"0                        प्रथमोऽङ्कः                        प्रथमः+अङ्कः\n"}
+,{"stream_name":"stdout","time":58.90196168,"data":"1                            शब्द इव                            शब्दः+इव\n"}
+,{"stream_name":"stdout","time":58.901967146,"data":"2                             इत इतः                             इतः+इतः\n"}
+,{"stream_name":"stdout","time":58.901972965,"data":"3                            कुतो नु                             कुतः+नु\n"}
+,{"stream_name":"stdout","time":58.901978495,"data":"4  खल्वेष समुत्थितो समुत्थितो ध्वनिः  खलु+एषः+समुत्थितः+समुत्थितः+ध्वनिः\n"}
+,{"stream_name":"stdout","time":58.901984401,"data":"Index(['Word', 'Split'], dtype='object')\n"}
+,{"stream_name":"stdout","time":58.901988877,"data":"Total samples: 13930\n"}
+,{"stream_name":"stderr","time":59.144511531,"data":"/tmp/ipykernel_24/4216803760.py:15: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`\n"}
+,{"stream_name":"stderr","time":59.144560697,"data":"  inp, out = preprocess_pair(row[0], row[1])\n"}
+,{"stream_name":"stderr","time":59.144585727,"data":"\n"}
+,{"stream_name":"stderr","time":59.144591755,"data":"/tmp/ipykernel_24/4216803760.py:15: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`\n"}
+,{"stream_name":"stderr","time":59.144597705,"data":"  inp, out = preprocess_pair(row[0], row[1])\n"}
+,{"stream_name":"stdout","time":59.645363026,"data":"Before filtering: 13930\n"}
+,{"stream_name":"stdout","time":59.645404543,"data":"After filtering: 9018\n"}
+,{"stream_name":"stdout","time":59.661637864,"data":"Train: 7214\n"}
+,{"stream_name":"stdout","time":59.661671397,"data":"Val: 902\n"}
+,{"stream_name":"stdout","time":59.661678208,"data":"Test: 902\n"}
+,{"stream_name":"stdout","time":59.676769243,"data":"Train: 7214\n"}
+,{"stream_name":"stdout","time":59.676798657,"data":"Val: 902\n"}
+,{"stream_name":"stdout","time":59.676805828,"data":"Test: 902\n"}
+,{"stream_name":"stderr","time":60.389413019,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":60.389448195,"data":"\n"}
+,{"stream_name":"stderr","time":60.389453414,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":65.613818919,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":65.613857927,"data":"\n"}
+,{"stream_name":"stderr","time":65.613863591,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":65.614680891,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to encoder.embed_tokens.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":65.614704529,"data":"\n"}
+,{"stream_name":"stderr","time":65.614709406,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to encoder.embed_tokens.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":65.615570341,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to decoder.embed_tokens.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stderr","time":65.615597813,"data":"\n"}
+,{"stream_name":"stderr","time":65.615603087,"data":"The tied weights mapping and config for this model specifies to tie shared.weight to decoder.embed_tokens.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning\n"}
+,{"stream_name":"stdout","time":66.202543036,"data":"GPU: Tesla P100-PCIE-16GB\n"}
+,{"stream_name":"stdout","time":1820.823151742,"data":"Model saved successfully.\n"}
+,{"stream_name":"stdout","time":2492.799549126,"data":"Validation Exact Match: 0.7017738359201774\n"}
+,{"stream_name":"stdout","time":2496.827517927,"data":"INPUT : split: निराशीरपरिग्रहः\n"}
+,{"stream_name":"stdout","time":2496.82757128,"data":"PRED  : निराशीः अपरिग्रहः\n"}
+,{"stream_name":"stdout","time":2496.827577733,"data":"GOLD  : निः आशीः अपरिग्रहः\n"}
+,{"stream_name":"stdout","time":2496.827582741,"data":"------\n"}
+,{"stream_name":"stdout","time":2498.486827441,"data":"INPUT : split: लक्षणादिति\n"}
+,{"stream_name":"stdout","time":2498.486864367,"data":"PRED  : लक्षण इति\n"}
+,{"stream_name":"stdout","time":2498.486869072,"data":"GOLD  : लक्षणात् इति\n"}
+,{"stream_name":"stdout","time":2498.486874183,"data":"------\n"}
+,{"stream_name":"stdout","time":2501.591752932,"data":"INPUT : split: शान्तिस्तथा\n"}
+,{"stream_name":"stdout","time":2501.591787756,"data":"PRED  : शान्तिः तथा\n"}
+,{"stream_name":"stdout","time":2501.591807275,"data":"GOLD  : शान्तः तथा\n"}
+,{"stream_name":"stdout","time":2501.591810021,"data":"------\n"}
+,{"stream_name":"stdout","time":2502.458296558,"data":"INPUT : split: संयमोऽपि\n"}
+,{"stream_name":"stdout","time":2502.458332895,"data":"PRED  : संयमः अपि\n"}
+,{"stream_name":"stdout","time":2502.458336777,"data":"GOLD  : संयम अपि\n"}
+,{"stream_name":"stdout","time":2502.458350977,"data":"------\n"}
+,{"stream_name":"stdout","time":2503.232766985,"data":"INPUT : split: उभयोरपि\n"}
+,{"stream_name":"stdout","time":2503.232798293,"data":"PRED  : उभयः अपि\n"}
+,{"stream_name":"stdout","time":2503.232801706,"data":"GOLD  : उभयोः अपि\n"}
+,{"stream_name":"stdout","time":2503.23280436,"data":"------\n"}
+,{"stream_name":"stdout","time":2504.690357443,"data":"INPUT : split: नाभ्यस्ताच्छतुः\n"}
+,{"stream_name":"stdout","time":2504.690403833,"data":"PRED  : न अभ्यः तात् छतुः\n"}
+,{"stream_name":"stdout","time":2504.690410085,"data":"GOLD  : न अभ्यस्तात् शतुः\n"}
+,{"stream_name":"stdout","time":2504.690417,"data":"------\n"}
+,{"stream_name":"stdout","time":2505.883959876,"data":"INPUT : split: श्रृगालीव\n"}
+,{"stream_name":"stdout","time":2505.883997213,"data":"PRED  : श्रृगाली इव\n"}
+,{"stream_name":"stdout","time":2505.884003712,"data":"GOLD  : शृगाली इव\n"}
+,{"stream_name":"stdout","time":2505.884010112,"data":"------\n"}
+,{"stream_name":"stdout","time":3209.744071652,"data":"Character Accuracy: 0.807815210444627\n"}
+,{"stream_name":"stderr","time":3215.359019815,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3215.359049798,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3215.560325211,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3215.560350664,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3216.180132883,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":3216.180165133,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":3216.234158502,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3216.582301685,"data":"[NbConvertApp] Writing 260883 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3218.848370603,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":3218.848407403,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":3218.878727093,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3219.791285859,"data":"[NbConvertApp] Writing 506854 bytes to __results__.html\n"}
+]

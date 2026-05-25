@@ -1,0 +1,41 @@
+\label{chap.4}
+%\section{Overview:}
+Describe how the proposed work was evaluated, and provide an analysis of the results.
+\section{Experimental Setup}
+ Describe the resources, tools, and procedures used for conducting experiments.
+
+Hardware and Software: Specify the computational resources, programming languages, libraries, or platforms used.
+Example: "Experiments were conducted on a system with an Intel i7 processor, 16GB RAM, using Python 3.9 and PyTorch."
+\section{Datasets:} Provide details about the datasets used, including their source, characteristics (e.g., number of nodes, edges, features), and preprocessing steps.
+Example: "The experiments used two datasets: the Facebook Social Network dataset and the DBLP Citation Network, both containing time-stamped edges."
+\section{Evaluation Metrics:}Define the metrics used to measure performance, such as precision, recall, F1 score, ROC-AUC, or computational efficiency.
+Example: "Precision and recall were used to evaluate prediction accuracy, while runtime was used to measure computational efficiency."
+\section{Experimental Design}
+ Describe how the experiments were conducted step by step.:
+Baseline Methods: List the existing methods used for comparison.
+Example: "The proposed model was compared against node2vec, GCN, and GAT models."
+\subsection{Experimental Scenarios:} Discuss different conditions under which the experiments were conducted, such as varying dataset sizes, hyperparameters, or network dynamics.
+Example: "The experiments evaluated the model under static and dynamic conditions by incrementally adding edges over time."
+\subsection{Parameter Tuning:} Mention how hyperparameters were optimized, if applicable.
+Example: "Grid search was performed to tune the learning rate, dropout rate, and number of GNN layers."
+\section{Results} Present the results of your experiments in a clear and organized manner.
+
+Tables and Graphs: Use tables, charts, and graphs to present quantitative results.
+Comparative Results: Compare the performance of your proposed model with baseline methods.
+Example: "The proposed model achieved an F1 score of 0.89 compared to 0.83 for node2vec."
+Qualitative Results (if applicable): Include visualizations, case studies, or examples of outputs.
+Example: "Figure 4.2 shows the network before and after link prediction using the proposed model."
+\section{ Analysis of Results}
+ Interpret the results and explain their significance.
+
+\section{Observations:} Discuss patterns or anomalies observed in the results.
+Example: "The proposed model outperforms baseline methods for dense graphs but shows reduced performance for sparse graphs."
+Insights: Relate the results back to the research objectives and literature gaps.
+Example: "The results validate the proposed hybrid approach's effectiveness in handling dynamic networks, addressing the scalability issue highlighted in the literature."
+Statistical Significance (if applicable): Include significance testing to strengthen claims.
+\section{ Comparative Analysis}
+ Provide a side-by-side comparison of your results with those of existing methods.
+
+Include a table summarizing metrics for all methods.
+Discuss the relative advantages or limitations of your approach.
+Example: "While the runtime of the proposed model is slightly higher than node2vec, it achieves significantly better precision."
