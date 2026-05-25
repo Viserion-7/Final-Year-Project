@@ -1,17 +1,21 @@
 import torch
 import gradio as gr
-
+import logging
 from transformers import (
     AutoTokenizer,
     T5ForConditionalGeneration
 )
 
-
 # =====================================================
-# LOAD MODEL
+# LOAD ByT5 MODEL
 # =====================================================
 
 MODEL_PATH = "./byt5_sandhi_model"
+
+
+logging.getLogger("transformers").setLevel(
+    logging.ERROR
+)
 
 tokenizer = AutoTokenizer.from_pretrained(
     MODEL_PATH
@@ -28,6 +32,8 @@ device = torch.device(
 model.to(device)
 
 model.eval()
+
+print("ByT5 model loaded")
 
 
 # =====================================================
@@ -61,7 +67,7 @@ def predict_boundary(word):
 
 
 # =====================================================
-# RESTORATION
+# RESTORATION FUNCTION
 # =====================================================
 
 def restore_sandhi(window_text):
@@ -69,9 +75,7 @@ def restore_sandhi(window_text):
     input_text = f"split: {window_text}"
 
     inputs = tokenizer(
-
         input_text,
-
         return_tensors="pt"
     ).to(device)
 
@@ -104,16 +108,33 @@ def restore_sandhi(window_text):
 
 def sandhi_pipeline(word):
 
+    if not word.strip():
+
+        return "", ""
+
+    ########################################
+    # Stage 1 — Boundary Prediction
+    ########################################
+
     boundary = predict_boundary(word)
 
-    window = make_window(
+    boundary_window = make_window(
         word,
         boundary
     )
 
-    prediction = restore_sandhi(window)
+    ########################################
+    # Stage 2 — ByT5 Restoration
+    ########################################
 
-    return prediction
+    final_prediction = restore_sandhi(
+        boundary_window
+    )
+
+    return (
+        boundary_window,
+        final_prediction
+    )
 
 
 # =====================================================
@@ -125,18 +146,32 @@ iface = gr.Interface(
     fn=sandhi_pipeline,
 
     inputs=gr.Textbox(
-        label="Input Sandhi Word"
+
+        label="Input Sandhi Word",
+
+        placeholder="Enter Sanskrit compound word..."
     ),
 
-    outputs=gr.Textbox(
-        label="Predicted Split"
-    ),
+    outputs=[
 
-    title="Sanskrit Sandhi Splitter",
+        gr.Textbox(
+            label="Stage 1 — Predicted Boundary"
+        ),
 
-    description=(
-        "Hybrid BiLSTM + ByT5 Sanskrit Sandhi Splitting"
-    )
+        gr.Textbox(
+            label="Stage 2 — Final Restored Split"
+        )
+    ],
+
+    title="Hybrid BiLSTM + ByT5 Sanskrit Sandhi Splitting System",
+
+    description="Enter a Sanskrit compound word to see the predicted boundary and the final restored split using the ByT5 model.",
 )
 
-iface.launch()
+iface.launch(
+    theme=gr.themes.Default(
+        primary_hue="blue",
+        secondary_hue="gray",
+        neutral_hue="slate"
+    )
+)
