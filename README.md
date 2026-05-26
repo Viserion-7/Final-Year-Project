@@ -28,11 +28,8 @@ The project progresses through systematic phases, combining machine learning tec
 ### Hybrid Model Approach
 
 Our framework employs a **hybrid neural architecture** that combines the strengths of multiple model types:
-<p align="center">
-  <span style="background:white; padding:12px; display:inline-block;">
-    <img src="Final pipeline.png" width="100%">
-  </span>
-</p>
+
+![Hybrid Architecture Pipeline](Final%20pipeline.jpg)
 
 The pipeline integrates:
 - **Encoder-Decoder Models** for sequence-to-sequence transformation
