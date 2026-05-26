@@ -1,9 +1,8 @@
 venv/
-ayurveda-nlp-kg/ 
-# abhiram's Repo
-Models/.env
+.venv/
+.env
 *.zip
 *.safetensors
 .gradio/
-Recordings/Models/.env
+Recordings/
 Phase_2/Web/utils/__pycache__
